@@ -45,3 +45,7 @@ venv/
 _to_delete/
 .DS_Store
 agentcore/.cli/
+
+# Support Scripts
+update_aws_creds.py
+aws_creds.txt

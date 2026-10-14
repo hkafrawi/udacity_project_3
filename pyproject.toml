@@ -1,0 +1,22 @@
+[project]
+name = "udacity-aws-project3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Kafrawi", email = "82475242+hkafrawi@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "boto3>=1.42.0",
+    "botocore>=1.42.0",
+    "python-dotenv>=1.0.0",
+    "strands-agents>=1.0.0",
+]
+
+[project.scripts]
+udacity-aws-project3 = "udacity_aws_project3:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
