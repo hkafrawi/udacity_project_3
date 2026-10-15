@@ -1,0 +1,32 @@
+
+(udacity-aws-project3) C:\Users\Bob\Documents\udacity_aws_project3>uv run python config.py
+
+============================================================
+  Udacity AgentCore Project Configuration
+============================================================
+  Region:                    us-east-1
+  Account ID:                101099690483
+  Orchestrator Model:        us.anthropic.claude-haiku-4-5-20251001-v1:0
+  Worker Model:              us.anthropic.claude-sonnet-4-5-20250929-v1:0
+  --------------------------------------------------------
+  Orders Table:              udacity-agentcore-orders
+  Customers Table:           udacity-agentcore-customers
+  Workflow State Table:      udacity-agentcore-workflow-state
+  Policy Bucket:             udacity-agentcore-policy-docs-101099690483-c4b21d00
+  Vector Bucket:             udacity-agentcore-vectors-101099690483-c4b21d00
+  Vector Indexes:            returns-policy-index, shipping-policy-index, warranty-policy-index
+  AgentCore Role:            arn:aws:iam::101099690483:role/udacity-agentcore-agentcore-role
+  Agent Log Group:           /aws/bedrock/agentcore/udacity-agentcore
+  --------------------------------------------------------
+  Returns KB ID:             JTSLSOFXZ1
+  Shipping KB ID:            NCMFYJCIQB
+  Warranty KB ID:            IFGDVL27PV
+  --------------------------------------------------------
+  Runtime Name:              udacity_agentcore_runtime
+  Runtime ARN:               arn:aws:bedrock-agentcore:us-east-1:101099690483:runtime/udacity_agentcore_runtime-QtPiwfFm6o
+  Guardrail ID:              0669z09w494m
+  Guardrail Version:         1
+============================================================
+
+
+(udacity-aws-project3) C:\Users\Bob\Documents\udacity_aws_project3>
